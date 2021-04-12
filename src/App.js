@@ -26,6 +26,7 @@ import SaveIcon from '@material-ui/icons/Save';
 import ClearAll from '@material-ui/icons/ClearAll';
 import { Canvas } from '@react-three/fiber'
 import { PartView } from './components/PartView'
+import Part from './components/GUI.png'
 
 
 
@@ -162,8 +163,8 @@ function App() {
               </ButtonGroup>
               </Grid>
               <Grid container>
-                <Paper style={{height:700, width:800}}>
-                 
+                <Paper style={{height:480, width:800}}>
+                <img  src={Part} alt="empty"/>
                 </Paper>
               </Grid>
             </Grid>
